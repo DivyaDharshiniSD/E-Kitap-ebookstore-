@@ -1,0 +1,150 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background: -webkit-linear-gradient(left,gainsboro,gainsboro);
+}
+hr
+{
+	height:2px;
+	border-width:0;
+	color:#008CBA;
+	background-color:#008CBA;
+}
+.img
+{
+	height: 300px;
+	/*justify-content:center;*/
+	left:5%;
+	position: absolute;
+	top: 40%;
+	width:90%;
+}
+
+.footer{
+	text-align: center;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:100px;
+   opacity: 0.9;
+   background-color:black;
+   color: white;
+}
+.bgimage
+{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://wallup.net/wp-content/uploads/2019/10/620415-art-chibionpu-butterfly-books-branches-tree-sakura-book-artwork-painting-1-300x200.jpg);
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color:#008CBA;
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 11px;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color:black;
+}
+
+a:visited {
+	color:black;
+}
+
+.rightmenu ul li
+ {
+ 	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 17px;
+	color:black;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+#fisrtlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+	cursor: pointer;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
